@@ -10,5 +10,5 @@ export const customerSelfServiceBackend = getEnvironmentVariable(
 )
 export const customerManagementBackend = getEnvironmentVariable(
   "REACT_APP_CUSTOMER_MANAGEMENT_BACKEND",
-  "http://localhost:8100"
+  "http://customer-management-customer-management-backend.e4ff.pro-eu-west-1.openshiftapps.com/"
 )
